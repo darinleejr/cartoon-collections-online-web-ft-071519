@@ -9,7 +9,7 @@ end
 
 
 def long_planteer_calls(calls)
-  alls.any? {|word| word.length > 4}
+  calls.any? {|word| word.length > 4}
 end
 
 
