@@ -9,7 +9,7 @@ end
 
 
 def long_planeteer_calls(calls)
-  calls = 0 
+  calls = [""]
   if calls.length > 4
     true
   elsif calls.length < 4
