@@ -9,13 +9,7 @@ end
 
 
 def long_planeteer_calls(calls)
-  calls = ["love", "tar", "far", "hot"]    #[1, 2, 3, 4, 5]
-  if calls.length > 4
-    true
-  else
-    false
-  end
-  # calls.any? {|word| word.length > 4}
+   calls.any? {|word| word.length > 4}
 end
 
 
