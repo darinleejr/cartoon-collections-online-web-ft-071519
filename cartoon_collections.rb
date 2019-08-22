@@ -1,4 +1,4 @@
-def roll_call_dwarves(dwarves)# code an argument here
+def roll_call_dwarves(dwarves)
   dwarves.each_with_index {|name, i| puts (i + 1).to_s + ".*#{name}"}
 end
 
@@ -13,13 +13,12 @@ def long_planteer_calls(calls)
 end
 
 
- def find_the_cheese# code an argument here	def find_the_cheese(array)
-  # the array below is here to help	
-  cheese_types = ["cheddar", "gouda", "camembert"]	  cheese_types = ["cheddar", "gouda", "camembert"]
+def find_the_cheese(array)
+  cheese_types = ["cheddar", "gouda", "camembert"]
   array.find do |word|
     cheese_types.find {|cheese| cheese == word}
-  end
 end
+
 
 
 
