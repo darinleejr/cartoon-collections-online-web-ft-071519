@@ -12,7 +12,7 @@ def long_planteer_calls(calls)
   if calls.length > 4
     true
   elsif calls.length < 4
-  
+  end
   # calls.any? {|word| word.length > 4}
 end
 
