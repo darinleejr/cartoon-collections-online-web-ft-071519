@@ -3,14 +3,14 @@ def roll_call_dwarves(dwarves)# code an argument here
 end
 
 
- def summon_captain_planet# code an argument here	def summon_captain_planet(produce)# code an argument here
-  # Your code here	  produce.collect {|name| name.capitalize + "!"}
- end
+def summon_captain_planet(produce)
+  produce.collect {|name| name.capitalize + "!"}
+end
 
 
- def long_planteer_calls# code an argument here	def long_planteer_calls(calls)# code an argument here
-  # Your code here	  calls.any? {|word| word.length > 4}
- end
+def long_planteer_calls(calls)
+  alls.any? {|word| word.length > 4}
+end
 
 
  def find_the_cheese# code an argument here	def find_the_cheese(array)
